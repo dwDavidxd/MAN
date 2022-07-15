@@ -24,7 +24,7 @@ parser.add_argument('--nat-label-train', type=str, help='natural training label'
 parser.add_argument('--nat-img-test', type=str, help='natural test data', default='./data/test_images.npy')
 parser.add_argument('--nat-label-test', type=str, help='natural test label', default='./data/test_labels.npy')
 
-parser.add_argument('--batch-size', type=int, default=128, metavar='N',
+parser.add_argument('--batch-size', type=int, default=500, metavar='N',
                     help='input batch size for training (default: 128)')
 parser.add_argument('--epochs', type=int, default=90, metavar='N',
                     help='number of epochs to train')
