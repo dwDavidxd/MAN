@@ -1,2 +1,2 @@
 # MAN
-Model adversarial noise
+Model adversarial noise.
