@@ -15,7 +15,7 @@ from data import data_dataset
 import numpy as np
 from time import perf_counter, sleep
 
-parser = argparse.ArgumentParser(description='PyTorch CIFAR TRADES Adversarial Training')
+parser = argparse.ArgumentParser(description='PyTorch MAN Adversarial Training')
 
 parser.add_argument('--nat-img-train', type=str, help='natural training data', default='./data/train_images.npy')
 parser.add_argument('--nat-label-train', type=str, help='natural training label', default='./data/train_labels.npy')
