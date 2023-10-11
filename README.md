@@ -40,3 +40,38 @@ To train the MAN-based model
 ```
 python train_standard_man.py --model-dir 'your checkpoint directory'
 ```
+
+
+### Test
+To test the learned model using general attacks
+
+```
+python test_comparison.py --model-dir 'your checkpoint directory' (including PGD, Autoattack, DDN attack, etc.)
+```
+
+
+To test the learned model using adaptive attacks
+
+```
+python test_adaptive.py --model-dir 'your checkpoint directory'
+```
+
+
+## License and Contributing
+- This README is formatted based on [paperswithcode](https://github.com/paperswithcode/releasing-research-code).
+- Feel free to post issues via Github. 
+
+
+## Reference
+If you find the code useful in your research, please consider citing our paper:
+
+<pre>
+@inproceedings{zhou2022modeling,
+  title={Modeling Adversarial Noise for Adversarial Training},
+  author={Zhou, Dawei and Wang, Nannan and Han, Bo and Liu, Tongliang},
+  booktitle={International Conference on Machine Learning},
+  pages={27353--27366},
+  year={2022},
+  organization={PMLR}
+}
+</pre>
