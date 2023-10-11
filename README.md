@@ -13,6 +13,12 @@ Deep neural networks have been demonstrated to be vulnerable to adversarial nois
 <p float="left" align="center">
 <img src="arch.png" width="800" /> 
 <figcaption align="center">
-The illustration of our proposed Modeling Adversarial Noise-based method (MAN). $\boldsymbol{\hat{y}^{\prime}}$
+
+The illustration of our proposed Modeling Adversarial Noise-based method (MAN). $\boldsymbol{y}$ denotes the ground-truth label $y$ in the form of a vector. $\boldsymbol{\hat{y}^{\prime}}$ and $\boldsymbol{\hat{y}}$ denote the probability of the estimated mixture label $\hat{y}^{\prime}$ and the probability of the inferred natural label $\hat{y}$, respectively. That is, $\boldsymbol{\hat{y}^{\prime}}=\delta(h_{\theta}(x^{\prime}))$ and $\boldsymbol{\hat{y}}=\boldsymbol{\hat{y}^{\prime}} \cdot \widehat{T}(x^{\prime};\omega)$. 
 </figcaption>
 </p>
+
+
+## Requirements
+- This codebase is written for `python3` and 'pytorch'.
+- To install necessary python packages, run `pip install -r requirements.txt`.
