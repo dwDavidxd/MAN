@@ -25,4 +25,18 @@ The illustration of our proposed Modeling Adversarial Noise-based method (MAN). 
 
 - ## Experiments
 ### Data
-- Please download and place all datasets into the data directory. 
+- Please download and place the dataset into the 'data' directory.
+
+
+### Training
+To train the standard AT model
+
+```
+python train_standard.py --model-dir 'your checkpoint directory'
+```
+
+To train the MAN-based model
+
+```
+python train_standard_man.py --model-dir 'your checkpoint directory'
+```
