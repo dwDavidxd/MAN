@@ -22,3 +22,7 @@ The illustration of our proposed Modeling Adversarial Noise-based method (MAN). 
 ## Requirements
 - This codebase is written for `python3` and 'pytorch'.
 - To install necessary python packages, run `pip install -r requirements.txt`.
+
+- ## Experiments
+### Data
+- Please download and place all datasets into the data directory. 
