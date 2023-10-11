@@ -32,7 +32,7 @@ parser.add_argument('--epsilon', default=0.031, help='perturbation')
 parser.add_argument('--num-steps', default=10, help='perturb number of steps')
 parser.add_argument('--step-size', default=0.007, help='perturb step size')
 
-parser.add_argument('--model-dir', default='./checkpoint/resnet_18/MAN_adaptive/standard_bs_128',
+parser.add_argument('--model-dir', default='./checkpoint/resnet_18/MAN_adaptive/standard_AT',
                     help='directory of model for saving checkpoint')
 parser.add_argument('--print_freq', type=int, default=1)
 
