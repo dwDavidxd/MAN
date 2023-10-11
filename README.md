@@ -32,13 +32,13 @@ The illustration of our proposed Modeling Adversarial Noise-based method (MAN). 
 To train the standard AT model
 
 ```
-python train_standard.py --model-dir 'your checkpoint directory'
+python train_standard.py --model_dir 'your checkpoint directory'
 ```
 
 To train the MAN-based model
 
 ```
-python train_standard_man.py --model-dir 'your checkpoint directory'
+python train_standard_man.py --model_dir 'your checkpoint directory'
 ```
 
 
@@ -46,14 +46,14 @@ python train_standard_man.py --model-dir 'your checkpoint directory'
 To test the learned model using general attacks
 
 ```
-python test_comparison.py --model-dir 'your checkpoint directory' (including PGD, Autoattack, DDN attack, etc.)
+python test_comparison.py --model_dir 'your checkpoint directory' (including PGD, Autoattack, DDN attack, etc.)
 ```
 
 
 To test the learned model using adaptive attacks
 
 ```
-python test_adaptive.py --model-dir 'your checkpoint directory'
+python test_adaptive.py --model_dir 'your checkpoint directory'
 ```
 
 
