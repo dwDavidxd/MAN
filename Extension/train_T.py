@@ -242,9 +242,6 @@ def main():
         # adjust learning rate for SGD
         adjust_learning_rate(optimizer, epoch)
 
-        # adversarial training
-        # start = perf_counter()
-
         train(args, classifier, T_model, device, train_loader, optimizer, epoch)
 
         if epoch % args.save_freq == 0:
